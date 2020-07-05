@@ -3,11 +3,15 @@ A set of small scripts providing the possibility to monitor the current amount o
 
 
 # main.py
+Uses: requests, BeautifulSoup4
+
 This script allows you to create or choose a text file to store data, choose which server you want to check and decide between a single or periodic data read.
 Data is stored in a JSON format.
 
 
 # graph.py
+Uses: matplotlib
+
 Draws a graph of player activity based on the data present in the selected text file.
 
 
